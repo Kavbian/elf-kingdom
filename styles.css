@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  background-image: url(assets/background-elf-kingdom.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: 100%;
+  overscroll-behavior: none;
+}
+
+.sidebar__logo-card {
+  background: #31511E;
+  border-bottom-right-radius: 42px;
+  box-shadow: 0 4px 60px #F6FCDF;
+}
+
+.sidebar__menu {
+  color: white;
+  font-size: 5vh;
+}
+
+footer {
+  padding: 2%;
+  color: white;
+}
+
+.news-card {
+  padding: 3%;
+  background-color: white;
+  border-radius: 48px;
+  box-shadow: 0 4px 60px #F6FCDF;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.news__card__img {
+  border-radius: 45px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.left-column {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin-left: 25vw;
+}
+
+.page__sidebar-right {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.news__card__text {
+  font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 0;
+  }
+
+  .news__card__img {
+    width: 100%;
+  }
+
+  .news__card__text {
+    font-size: 5vw;
+  }
+}
